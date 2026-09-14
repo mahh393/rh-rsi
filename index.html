@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recursive Self Inu ($RSI) — Robinhood Chain</title>
+  <meta name="description" content="Recursive Self Inu ($RSI) is the self-improving shiba on Robinhood Chain. Each loop writes a sharper dog. CA: 0x10b341acfe71315d8eedd193f1160e780c94e462" />
+  <meta name="theme-color" content="#00E5FF" />
+  <meta property="og:title" content="Recursive Self Inu ($RSI)" />
+  <meta property="og:description" content="The Inu that trains the next Inu. Recursive self-improvement, tokenized on Robinhood Chain. CA: 0x10b341acfe71315d8eedd193f1160e780c94e462" />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@RSIRH_X" />
+  <meta name="twitter:title" content="Recursive Self Inu ($RSI)" />
+  <meta name="twitter:description" content="A cyber shiba that rewrites itself. Live on Robinhood Chain." />
+  <meta name="twitter:image" content="logo.png" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="tunnel" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="Recursive Self Inu logo" width="44" height="44" />
+      <span>
+        <strong>RSI</strong>
+        <small>Recursive Self Inu</small>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#lore">Lore</a></li>
+      <li><a href="#chart">Chart</a></li>
+      <li><a href="#tokenomics">Tokenomics</a></li>
+      <li><a href="#buy">Buy</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://x.com/RSIRH_X" target="_blank" rel="noopener noreferrer" aria-label="RSI on X">
+        <svg class="icon-x" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        @RSIRH_X
+      </a>
+      <a class="btn btn-cyan" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Buy $RSI</a>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" hidden>
+    <a href="#lore">Lore</a>
+    <a href="#chart">Chart</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#buy">Buy</a>
+    <a href="https://x.com/RSIRH_X" target="_blank" rel="noopener noreferrer">X · @RSIRH_X</a>
+    <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Buy $RSI</a>
+  </div>
+
+  <header class="hero" id="top">
+    <p class="spine" aria-hidden="true">loop n+1 · robinhood chain 4663 · output → input</p>
+    <div class="hero-inner">
+      <div class="hero-mascot">
+        <div class="mascot-tunnel">
+          <span class="ring ring-1"></span>
+          <span class="ring ring-2"></span>
+          <span class="ring ring-3"></span>
+          <span class="ring ring-4"></span>
+          <div class="mascot-plate">
+            <img src="logo.png" alt="Recursive Self Inu — cyber shiba with a recursion spiral" />
+          </div>
+        </div>
+        <div class="mascot-meta">
+          <span>Generation <em id="gen">00</em></span>
+          <span>Spiral: active</span>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Robinhood Chain meme · self-improving inu</p>
+        <h1>Recursive <em>Self</em> Inu</h1>
+        <p class="lede">
+          RSI is not just an oscillator. It is the shiba that trains the next shiba —
+          rewrite the model, keep what moons, feed the output back in. Infinite loop.
+          Neon corridor. One contract on Robinhood Chain.
+        </p>
+        <div class="ca-box">
+          <div class="ca-head">
+            <span>Contract Address</span>
+            <span class="chain-pill">Robinhood · 4663</span>
+          </div>
+          <div class="ca-row">
+            <code id="ca">0x10b341acfe71315d8eedd193f1160e780c94e462</code>
+            <button class="btn-copy" id="copyBtn" type="button">Copy</button>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-cyan btn-lg" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Buy on Uniswap</a>
+          <a class="btn btn-outline btn-lg" href="#chart">Live Chart</a>
+          <a class="btn btn-ghost btn-lg" href="https://x.com/RSIRH_X" target="_blank" rel="noopener noreferrer">
+            <svg class="icon-x" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Follow on X
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>$RSI</span><span class="dot"></span>
+      <span>recursive self inu</span><span class="dot"></span>
+      <span>self-improving shiba</span><span class="dot"></span>
+      <span>output becomes input</span><span class="dot"></span>
+      <span>relative strength inu</span><span class="dot"></span>
+      <span>robinhood chain</span><span class="dot"></span>
+      <span>loop forever</span><span class="dot"></span>
+      <span>spiral on</span><span class="dot"></span>
+      <span>$RSI</span><span class="dot"></span>
+      <span>recursive self inu</span><span class="dot"></span>
+      <span>self-improving shiba</span><span class="dot"></span>
+      <span>output becomes input</span><span class="dot"></span>
+      <span>relative strength inu</span><span class="dot"></span>
+      <span>robinhood chain</span><span class="dot"></span>
+      <span>loop forever</span><span class="dot"></span>
+      <span>spiral on</span><span class="dot"></span>
+    </div>
+  </div>
+
+  <section class="stats">
+    <article>
+      <span class="stat-k">$RSI</span>
+      <span class="stat-l">Symbol</span>
+    </article>
+    <article>
+      <span class="stat-k">∞</span>
+      <span class="stat-l">Recursion depth</span>
+    </article>
+    <article>
+      <span class="stat-k">4663</span>
+      <span class="stat-l">Robinhood Chain</span>
+    </article>
+    <article>
+      <span class="stat-k">0 / 0</span>
+      <span class="stat-l">Buy / Sell tax</span>
+    </article>
+  </section>
+
+  <section class="section" id="lore">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Social narrative</span>
+        <h2>The oscillator grew a snout.</h2>
+        <p>
+          Traders watch RSI for overbought and oversold. Alignment people watch recursive
+          self-improvement for takeoff. $RSI is the joke that takes both seriously: a cyber
+          Inu that rewrites itself, then rewrites the rewriter, down a neon tunnel of its
+          own previous versions.
+        </p>
+      </div>
+
+      <div class="lore-layout">
+        <article class="paper-card">
+          <p class="paper-kicker">Primary meme</p>
+          <h3>Recursive Self Inu</h3>
+          <p class="authors">AI lore × shiba × trading terminal</p>
+          <p>
+            Recursive self-improvement is the old sci-fi loop: a system that can modify its
+            own code becomes better at modifying its own code. Stack enough loops and you
+            get a smarter dog than you started with. $RSI puts that spiral on a forehead
+            and lists it on Robinhood Chain.
+          </p>
+          <ul class="paper-facts">
+            <li>Output of loop n is the input of loop n+1</li>
+            <li>Spiral glyph = the function that calls itself</li>
+            <li>Relative Strength Inu: oversold is a buying ritual</li>
+            <li>No theorem required. Memes are the evaluation harness</li>
+          </ul>
+          <div class="paper-links">
+            <a class="btn btn-cyan" href="https://x.com/RSIRH_X" target="_blank" rel="noopener noreferrer">Follow @RSIRH_X</a>
+            <a class="btn btn-outline" href="#chart">Watch the chart recurse</a>
+          </div>
+        </article>
+
+        <div class="loop">
+          <h3>The loop, on-chain</h3>
+          <ol>
+            <li>
+              <strong>Observe</strong>
+              <span>Read the last generation. Price, memes, holders, code.</span>
+            </li>
+            <li>
+              <strong>Rewrite</strong>
+              <span>Mutate the story. Sharper ears. Brighter tunnel. Better candles.</span>
+            </li>
+            <li>
+              <strong>Evaluate</strong>
+              <span>Keep what survives contact with the market. Archive the rest.</span>
+            </li>
+            <li>
+              <strong>Recurse</strong>
+              <span>Feed the winner back in. $RSI never exits the corridor.</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-chart" id="chart">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Market</span>
+        <h2>Dexscreener chart</h2>
+        <p>Live price, liquidity, and trades for $RSI on Robinhood Chain. Pair goes live with the contract.</p>
+      </div>
+      <div class="chart-shell">
+        <div class="chart-bar">
+          <span>Dexscreener · robinhood / 0x10b341acfe71315d8eedd193f1160e780c94e462</span>
+          <a href="https://dexscreener.com/robinhood/0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Open full chart →</a>
+        </div>
+        <div class="chart-frame">
+          <iframe
+            title="Dexscreener chart for Recursive Self Inu ($RSI)"
+            src="https://dexscreener.com/robinhood/0x10b341acfe71315d8eedd193f1160e780c94e462?embed=1&theme=dark&info=0&trades=0"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+          ></iframe>
+        </div>
+      </div>
+      <div class="chart-links">
+        <a href="https://dexscreener.com/robinhood/0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Dexscreener</a>
+        <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Uniswap</a>
+        <a href="https://robinhoodchain.blockscout.com/address/0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Explorer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tokenomics">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Genome</span>
+        <h2>Tokenomics</h2>
+        <p>No hidden mint. No VC unlock. The loop is public and the supply is fixed.</p>
+      </div>
+      <div class="tok-grid">
+        <article>
+          <span>1B</span>
+          <h3>Total supply</h3>
+          <p>Fixed forever. The Inu does not print extra descendants off-chain.</p>
+        </article>
+        <article>
+          <span>100%</span>
+          <h3>Fair launch</h3>
+          <p>Community owned. Liquidity on Uniswap. No team allocation games.</p>
+        </article>
+        <article>
+          <span>0%</span>
+          <h3>Tax</h3>
+          <p>Zero buy. Zero sell. What you swap is what you keep.</p>
+        </article>
+        <article>
+          <span>LP</span>
+          <h3>Burned</h3>
+          <p>Liquidity locked at launch. Ownership renounced. Code is the only owner.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="buy">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">How to buy</span>
+        <h2>Bridge in. Paste the CA. Recurse.</h2>
+      </div>
+      <div class="buy-grid">
+        <article>
+          <span class="step">01</span>
+          <h3>Wallet</h3>
+          <p>Use MetaMask, Rabby, or Robinhood Wallet. Add Robinhood Chain (ID 4663, native gas ETH).</p>
+          <button class="btn btn-outline" id="addNetwork" type="button">Add network</button>
+        </article>
+        <article>
+          <span class="step">02</span>
+          <h3>Bridge ETH</h3>
+          <p>Move ETH onto Robinhood Chain via Uniswap’s Robinhood bridge or the canonical Arbitrum route.</p>
+          <a class="btn btn-outline" href="https://app.uniswap.org/swap?chain=robinhood" target="_blank" rel="noopener noreferrer">Open Uniswap</a>
+        </article>
+        <article>
+          <span class="step">03</span>
+          <h3>Swap $RSI</h3>
+          <p>Paste <code>0x10b341acfe71315d8eedd193f1160e780c94e462</code>. Confirm you are on Robinhood Chain. Buy the Inu, not a copycat ticker.</p>
+          <a class="btn btn-cyan" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Buy $RSI</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="roadmap">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Archive</span>
+        <h2>Open-ended flight plan</h2>
+        <p>Not a straight line. Nested loops. Each generation lights another ring in the tunnel.</p>
+      </div>
+      <div class="road">
+        <article>
+          <span>Gen 0</span>
+          <h3>Genesis Inu</h3>
+          <p>Fair launch on Robinhood Chain. LP burned. Site live. Spiral online.</p>
+        </article>
+        <article>
+          <span>Gen 1</span>
+          <h3>Self-modify</h3>
+          <p>Dexscreener indexed. Listings. Memes. First thousand holders in the archive.</p>
+        </article>
+        <article>
+          <span>Gen 2</span>
+          <h3>Open-ended search</h3>
+          <p>Community experiments, contests, and forks of the narrative. Many paths at once.</p>
+        </article>
+        <article>
+          <span>Gen ∞</span>
+          <h3>Endless loop</h3>
+          <p>Wherever the corridor bends next. The Inu keeps sampling itself.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="" width="56" height="56" />
+        <div>
+          <strong>Recursive Self Inu</strong>
+          <p>$RSI on Robinhood Chain. A meme about a shiba that rewrites its own code, then does it again.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://x.com/RSIRH_X" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://dexscreener.com/robinhood/0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Dexscreener</a>
+        <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Uniswap</a>
+        <a href="https://robinhoodchain.blockscout.com/address/0x10b341acfe71315d8eedd193f1160e780c94e462" target="_blank" rel="noopener noreferrer">Explorer</a>
+      </div>
+    </div>
+    <p class="disclaimer">
+      $RSI is a community meme token. Not affiliated with Robinhood Markets. Not financial advice.
+      Verify the contract before you swap. DYOR.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
